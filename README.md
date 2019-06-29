@@ -1,2 +1,2 @@
-# suitesports-contracts
+# eth-pocs-contracts
 solidity contracts
