@@ -18,7 +18,7 @@
     "eslint": "^6.0.1"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --timeout 10000",
     "lint": "node_modules/.bin/eslint ."
   },
   "repository": {
