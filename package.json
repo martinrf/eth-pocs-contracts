@@ -1,0 +1,37 @@
+{
+  "name": "eth-pocs-contracts",
+  "version": "1.0.0",
+  "description": "proof of concepts and blockchain labs",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "ganache-cli": "^6.4.4",
+    "mocha": "^6.1.4",
+    "solc": "^0.5.10",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.55"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinrf/eth-pocs-contracts.git"
+  },
+  "keywords": [
+    "eth"
+  ],
+  "author": "zyphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinrf/eth-pocs-contracts/issues"
+  },
+  "homepage": "https://github.com/martinrf/eth-pocs-contracts#readme"
+}
