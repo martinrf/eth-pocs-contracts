@@ -22,7 +22,10 @@ const deploy = async () => {
   const accounts = await web3.eth.getAccounts();
   /* eslint-disable-next-line no-console */
   console.log('Attempting to deploy from account: ', accounts[0]);
-
+  /* eslint-disable-next-line no-console */
+  console.log('ABI');
+  /* eslint-disable-next-line no-console */
+  console.log(JSON.stringify(abiInterface));
   const deployedContract = await new web3.eth.Contract(abiInterface)
     .deploy({ data: bytecode })
     .send({ gas: '1000000', from: accounts[0]});

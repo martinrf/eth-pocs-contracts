@@ -26,6 +26,11 @@ describe('Lottery Contract', () => {
     assert.ok(lottery.options.address);
   });
 
+  it('get manager', async () => {
+    const manager = await lottery.methods.manager().call({ from: accounts[0]});
+    assert.ok(manager);
+  });
+
   it('allows one account to enter', async () => {
     await lottery.methods.enter().send({
       from: accounts[0],
