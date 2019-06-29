@@ -29,6 +29,7 @@ To Deploy Lottery Contract
 #### Deployed Contracts for testing in Rinkeby
 
 Inbox contract deployed to address:  0x1162004150CB8600C6B6281Fba3367819636871f
+
 Lottery contract deployed to address: 0x4bE923f54769eE18FbE893Ea96BAB2214207Cba9
 
 #### Useful Tools
